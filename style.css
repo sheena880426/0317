@@ -1,52 +1,69 @@
-@charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
-body{
-	font-family: 'Noto Sans TC', sans-serif;
+header h1  {
+    color: #0B5B5B;
+    text-align: center;
+    letter-spacing: 10px;
+    background-color: #CED8D9;
+    border-radius: 16px;
+    padding-right: 3px;
+    padding-left: 3px;
+    font-size: xx-large;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+    text-shadow: 0px 4px #8FB1BB;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
-.container {
-    width: 1000px;
+article p {
+}
+nav a:visited {
+    color: #BB7FAC;
+    text-decoration: line-through;
+}
+nav a:hover {
+    color: #4E1314;
+    font-size: large;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');        font-family: 'Noto Sans TC', sans-serif;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+}
+.skincareimg {
+    height: 250px;
+    background-position: center center;
+    background-color: #1D0C0C;
+    background-image: url(design/five-skincare-ingredients-to-try.jpg);
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    border-radius: 42px;
+    background-size: contain;
+}
+article h3 {
+    background-color: #E1D7BB;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    text-indent: 10px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+nav {
+    text-align: center;
+    font-size: small;
+    text-decoration: none;
 }
 nav a:link {
     color: #49177E;
     text-decoration: none;
     text-shadow: 0px 1px #CAABE2;
 }
-nav {
-    text-decoration: none;
-    font-size: small;
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
 }
-article h3 {
-    height: 35px;
-    line-height: 35px;
-    text-align: left;
-    text-indent: 10px;
-    background-color: #E1D7BB;
-}
-skincareimg {
-    height: 250px;
-    border-radius: 42px;
-    background-color: #1D0C0C;
-}
-nav a:hover {
-    color: #4E1314;
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: large;
-}
-nav a:visited {
-    color: #BB7FAC;
-    text-decoration: line-through;
-}
-heading h1 {
-    padding-top: 1.5px;
-    padding-bottom: 1.5px;
-    padding-right: 3px;
-    padding-left: 3px;
-    color: #0B5B5B;
-    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-    font-size: xx-large;
-    text-align: center;
-    text-shadow: 0px 4px #8FB1BB;
-    letter-spacing: 10px;
-    border-radius: 16px;
-    background-color: #CED8D9;
-}
+font-family: 'Noto Sans TC', sans-serif;font-family: 'Noto Sans TC', sans-serif;font-family: 'Noto Sans TC', sans-serif;
